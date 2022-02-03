@@ -11,4 +11,4 @@
 8. Once you’ve selected your desired language and the timestamps fit your preferences, highlight the transcript, copy it, and paste it to a word processor or notepad app of your choice.
 9. Put this `sed` command ```s/([a-zA-Z,`])\n([a-zA-Z`])/\1 \2/``` in a file named `sed.cmds`:
 10. Run ```sed -e ':a' -e 'N' -e '$!ba' -E -f sed.cmds Input.txt > Output.txt```
-
+11. Et voilà!
